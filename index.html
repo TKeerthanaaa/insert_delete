@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CURD Application</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="ass/image/you.png" type="image/x-icon" />
+    <!-- normalization css -->
+    <link rel="stylesheet" href="style/normalize.css" />
+    <!-- font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <h1>TODO List</h1>
+    <main class="container">
+      <div class="from-control">
+        <input
+          class="text"
+          type="text"
+          name="title"
+          id="title"
+          placeholder="Enter title"
+        />
+        <button class="btn btn-submit" id="btn-submit">Add</button>
+      </div>
+      <ul class="container-list" id="list-container">
+        <!-- <li class="list-team">
+          <span class="list">List-Item One</span>
+          <button class="delete-item"><i class="fa-solid fa-trash"></i></button>
+          <button class="edit-item">
+            <i class="fa-solid fa-pen-to-square"></i>
+          </button>
+        </li> -->
+      </ul>
+    </main>
+    <script src="script/script.js"></script>
+  </body>
+</html>
